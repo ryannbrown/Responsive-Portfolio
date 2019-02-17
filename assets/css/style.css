@@ -245,6 +245,10 @@ input {
     
     padding:5px;  */
 
+p{
+    /* font-size:12px; */
+}
+
 h2{
     text-align:center;
 }
@@ -265,9 +269,11 @@ li {
 
 .container{
 
-    height:1200px;
+    height:1100px;
     
 }
+
+
 
 .flex-item{
     position:relative;
@@ -282,13 +288,27 @@ img.project{
    max-height: 450px; 
 }
 
+.project-box{
+    margin:auto;
+    width:75%;
+    left:1px;
+}
+
+#flex-container{
+    width:400px;
+    align-items:center;
+    margin:auto;
+}
+
 .project-img{
+    position:relative;
     float:none;
     width:100%;
+    padding:10px;
+    margin-top:20px;
 }
 
 }
-
 
 /* Big screens */
 
